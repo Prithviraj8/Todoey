@@ -12,6 +12,7 @@
 		FC1281D420735B340005941E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1281D220735B340005941E /* Main.storyboard */; };
 		FC1281D620735B340005941E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1281D520735B340005941E /* Assets.xcassets */; };
 		FC1281D920735B340005941E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1281D720735B340005941E /* LaunchScreen.storyboard */; };
+		FCC2ABFA207CE6D1005D0CAE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2ABF9207CE6D1005D0CAE /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FC1281D520735B340005941E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC1281D820735B340005941E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC1281DA20735B340005941E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC2ABF9207CE6D1005D0CAE /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +57,38 @@
 			isa = PBXGroup;
 			children = (
 				FC1281CE20735B340005941E /* AppDelegate.swift */,
-				FC1281D020735B340005941E /* TodoListViewController.swift */,
-				FC1281D220735B340005941E /* Main.storyboard */,
+				FCC2ABFC207CE6F4005D0CAE /* Controllers */,
+				FCC2ABFB207CE6E0005D0CAE /* Data Model */,
+				FC3DD32A207CE78700E70F02 /* Views */,
 				FC1281D520735B340005941E /* Assets.xcassets */,
 				FC1281D720735B340005941E /* LaunchScreen.storyboard */,
 				FC1281DA20735B340005941E /* Info.plist */,
 			);
 			path = Todoey;
+			sourceTree = "<group>";
+		};
+		FC3DD32A207CE78700E70F02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC1281D220735B340005941E /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FCC2ABFB207CE6E0005D0CAE /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCC2ABF9207CE6D1005D0CAE /* Item.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		FCC2ABFC207CE6F4005D0CAE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC1281D020735B340005941E /* TodoListViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC1281D120735B340005941E /* TodoListViewController.swift in Sources */,
+				FCC2ABFA207CE6D1005D0CAE /* Item.swift in Sources */,
 				FC1281CF20735B340005941E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
