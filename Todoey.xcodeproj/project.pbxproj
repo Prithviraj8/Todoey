@@ -12,6 +12,8 @@
 		FC1281D420735B340005941E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1281D220735B340005941E /* Main.storyboard */; };
 		FC1281D620735B340005941E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1281D520735B340005941E /* Assets.xcassets */; };
 		FC1281D920735B340005941E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1281D720735B340005941E /* LaunchScreen.storyboard */; };
+		FC6D2C5720872DB800688A27 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6D2C5620872DB800688A27 /* CategoryViewController.swift */; };
+		FC73AD7B2085EA1B0077C0F3 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC73AD792085EA1B0077C0F3 /* DataModel.xcdatamodeld */; };
 		FCC2ABFA207CE6D1005D0CAE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2ABF9207CE6D1005D0CAE /* Item.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,8 @@
 		FC1281D520735B340005941E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC1281D820735B340005941E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC1281DA20735B340005941E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6D2C5620872DB800688A27 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		FC73AD7A2085EA1B0077C0F3 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		FCC2ABF9207CE6D1005D0CAE /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +82,7 @@
 		FCC2ABFB207CE6E0005D0CAE /* Data Model */ = {
 			isa = PBXGroup;
 			children = (
+				FC73AD792085EA1B0077C0F3 /* DataModel.xcdatamodeld */,
 				FCC2ABF9207CE6D1005D0CAE /* Item.swift */,
 			);
 			path = "Data Model";
@@ -86,6 +91,7 @@
 		FCC2ABFC207CE6F4005D0CAE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FC6D2C5620872DB800688A27 /* CategoryViewController.swift */,
 				FC1281D020735B340005941E /* TodoListViewController.swift */,
 			);
 			path = Controllers;
@@ -163,7 +169,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC6D2C5720872DB800688A27 /* CategoryViewController.swift in Sources */,
 				FC1281D120735B340005941E /* TodoListViewController.swift in Sources */,
+				FC73AD7B2085EA1B0077C0F3 /* DataModel.xcdatamodeld in Sources */,
 				FCC2ABFA207CE6D1005D0CAE /* Item.swift in Sources */,
 				FC1281CF20735B340005941E /* AppDelegate.swift in Sources */,
 			);
@@ -309,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.prithviraj1.Todoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -324,7 +332,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.prithviraj1.Todoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -350,6 +358,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC73AD792085EA1B0077C0F3 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC73AD7A2085EA1B0077C0F3 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = FC73AD7A2085EA1B0077C0F3 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FC1281C320735B330005941E /* Project object */;
 }
