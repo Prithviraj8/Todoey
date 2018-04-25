@@ -12,7 +12,7 @@
         <!--Todoey-->
         <scene sceneID="xId-T2-lGP">
             <objects>
-                <tableViewController id="Npz-88-FCv" customClass="Categor" sceneMemberID="viewController">
+                <tableViewController id="Npz-88-FCv" customClass="CategoryViewController" customModule="Todoey" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="et2-ys-BM9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
